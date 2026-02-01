@@ -43,8 +43,23 @@ Diyabet tahmini için aşağıdaki modeller kurulmuş ve karşılaştırılmış
 - F1-Score
 - Confusion Matrix
 
+## Özet Sonuçlar
+Yapılan testler sonucunda modellerin doğruluk (accuracy) skorları yaklaşık olarak şu şekildedir:
+- **Logistic Regression:** %77
+- **KNN (En iyi k):** %75
+- **SVM:** %76
+- **Decision Tree:** %70
+
+En dengeli performansı **Logistic Regression** modeli sergilemiştir.
+
 ## Nasıl Çalıştırılır?
 
 1. Repository’i klonlayın:
 ```bash
 git clone https://github.com/kullanici_adi/repo_adi.git
+```
+2. Gerekli kütüphaneleri yükleyin:
+```bash
+pip install -r requirements.txt
+```
+3. Jupyter Notebook'u başlatın ve analysis.ipynb dosyasını çalıştırın.
